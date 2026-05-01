@@ -180,6 +180,8 @@ This supports use cases like structured search, candidate analytics, machine lea
 - **Design principles:** [`docs/design-principles.md`](docs/design-principles.md)
 - **AI mapping guidance:** [`docs/ai-parsing-guidelines.md`](docs/ai-parsing-guidelines.md)
 - **Roadmap / validator status:** [`docs/roadmap.md`](docs/roadmap.md)
+- **Versioning policy:** [`docs/versioning.md`](docs/versioning.md)
+- **Changelog:** [`docs/changelog.md`](docs/changelog.md)
 - **License:** [`LICENSE`](LICENSE)
 
 ---

@@ -22,4 +22,6 @@ This hub gathers the core Barba-CV documentation for implementers building AI ex
 
 - [Examples](../examples/)
 - [Roadmap](../roadmap/)
+- [Versioning Policy](./versioning.md)
+- [Changelog](./changelog.md)
 - [Origin](../origin/)
