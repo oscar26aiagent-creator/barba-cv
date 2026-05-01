@@ -12,6 +12,7 @@ This hub gathers the core Barba-CV documentation for implementers building AI ex
 - [Design Principles](./design-principles.md)
 - [LLM Integration](./llm-integration.md)
 - [AI Parsing Guidelines](./ai-parsing-guidelines.md)
+- [Schema Reference](./barba-cv-schema-reference.md)
 
 ## Specification assets
 

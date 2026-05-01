@@ -1,0 +1,29 @@
+name: "Feature / new section request"
+description: Suggest a new field/section for future roadmap consideration.
+title: "[FEATURE] "
+labels: ["enhancement", "roadmap"]
+body:
+  - type: textarea
+    id: use_case
+    attributes:
+      label: Use case
+      description: What real-world scenario requires this feature?
+    validations:
+      required: true
+  - type: textarea
+    id: proposed_shape
+    attributes:
+      label: Proposed data shape
+      description: Suggested JSON structure and examples.
+  - type: textarea
+    id: edge_cases
+    attributes:
+      label: Edge cases
+      description: Missing/partial data behavior, optionality, ambiguity.
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      options:
+        - label: I checked existing roadmap and schema docs
+        - label: I included at least one example payload snippet

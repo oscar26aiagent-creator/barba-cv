@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Barba-CV documentation
+    url: https://github.com/Eurobotics-Association/barba-cv/tree/main/docs
+    about: Check docs before opening an issue.

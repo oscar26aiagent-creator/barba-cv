@@ -23,6 +23,21 @@ Changes to the schema should be proposed via pull requests and must include:
 
 Schema evolution should maintain backward compatibility whenever possible.
 
+## Feedback and issue workflow
+
+Use GitHub Issues to:
+- report bugs,
+- propose schema changes,
+- request new fields/sections,
+- report edge cases from real CV payloads.
+
+Issue templates are provided under `.github/ISSUE_TEMPLATE/`:
+- `bug-report.yml`
+- `schema-change.yml`
+- `feature-request.yml`
+
+Please include payload snippets (anonymized) whenever possible to make discussion actionable.
+
 ## Discussions
 
 Major changes to the standard should first be discussed in GitHub issues before submitting a pull request.

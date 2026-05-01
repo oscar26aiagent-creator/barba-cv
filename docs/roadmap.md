@@ -33,6 +33,25 @@ The v1.3 line is focused on implementation clarity and compatibility discipline 
   - validator edge-case payloads.
 - Ensure all examples validate against current schema.
 
+### Phase 3.1 — Planned new sections for v1.3 roadmap (not in schema yet)
+- `events` section planning for participation records such as:
+  - exhibitions,
+  - conferences,
+  - panels,
+  - TV shows,
+  - podcasts,
+  - concerts,
+  - public/professional appearances.
+- `publications` section planning for published work such as:
+  - books,
+  - articles,
+  - scientific papers,
+  - reports,
+  - white papers,
+  - published studies.
+
+Implementation rule: these remain roadmap/planning items for v1.3 and are not introduced into the schema until explicit schema-change approval.
+
 ### Phase 4 — Validator specification
 - Define public validator contract (inputs/outputs, error structure).
 - Define compliance levels (schema-valid, compatibility-valid, recommended-quality).

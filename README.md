@@ -179,6 +179,7 @@ This supports use cases like structured search, candidate analytics, machine lea
 - **Examples:** [`examples/`](examples)
 - **Design principles:** [`docs/design-principles.md`](docs/design-principles.md)
 - **AI mapping guidance:** [`docs/ai-parsing-guidelines.md`](docs/ai-parsing-guidelines.md)
+- **Schema reference:** [`docs/barba-cv-schema-reference.md`](docs/barba-cv-schema-reference.md)
 - **Roadmap / validator status:** [`docs/roadmap.md`](docs/roadmap.md)
 - **Versioning policy:** [`docs/versioning.md`](docs/versioning.md)
 - **Changelog:** [`docs/changelog.md`](docs/changelog.md)
@@ -240,10 +241,42 @@ Recommended next additions (incremental):
 ## Versioning and compatibility
 
 - The format version is carried by `barba_cv_version` in each payload.
+- Current stable line: **1.2**.
+- Historical schema artifacts are archived under `schema/versions/`.
 - Schema evolution is managed conservatively to keep interoperability high.
 - Compatibility labels and formal certification tooling are documented and evolving.
 
-See: [`docs/roadmap.md`](docs/roadmap.md)
+Version references:
+- Canonical roadmap: [`docs/roadmap.md`](docs/roadmap.md)
+- Versioning policy: [`docs/versioning.md`](docs/versioning.md)
+- Changelog: [`docs/changelog.md`](docs/changelog.md)
+- Archived versions: [`schema/versions/`](schema/versions)
+
+### `$schema` usage example
+
+```json
+{
+  "$schema": "https://raw.githubusercontent.com/Eurobotics-Association/barba-cv/main/schema/barba-cv.schema.json",
+  "barba_cv_version": "1.2",
+  "personal_info": {}
+}
+```
+
+### Migration utility (v1 -> v1.2)
+
+A reference converter is provided at:
+- `scripts/convert_v1_to_v12.py`
+
+Example:
+
+```bash
+python scripts/convert_v1_to_v12.py legacy-v1.json converted-v1_2.json
+```
+
+### SchemaStore status
+
+SchemaStore support should be tracked explicitly in docs/release notes. If published, include the exact SchemaStore catalog entry and usage snippet here.
+
 
 ---
 
